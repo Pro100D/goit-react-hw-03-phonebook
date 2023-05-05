@@ -23,9 +23,7 @@ class App extends Component {
       const parsedContacts = JSON.parse(contactLocalStorage);
 
       this.setState({ contacts: parsedContacts });
-      return;
     }
-    localStorage.setItem('contacts', '[]');
   }
   // Добавление нового контакта
   addContact = contactAdd => {
