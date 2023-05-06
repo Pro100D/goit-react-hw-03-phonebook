@@ -58,7 +58,7 @@ class Form extends Component {
           id="number"
         />
 
-        <FormButtonSubmit type="submit">Add concact</FormButtonSubmit>
+        <FormButtonSubmit type="submit">Add contact</FormButtonSubmit>
       </FormPhonebook>
     );
   }
